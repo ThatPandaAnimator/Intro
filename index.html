@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+<a-scene> 
+<a-sky color="#4fa1e8"> </a-sky>
+<!-------------------------------------------------------------------- -->
+    <a-entity 
+        scale="3 3 .5"
+        position="0 10 -25" 
+        geometry="primitive: torus;" 
+        material="color: #facc00"
+        animation="property: rotation;
+      to: 360 720 180;
+      dur: 8000;
+      loop: true;
+      easing: linear;"
+        >
+    </a-entity>
+    <a-entity 
+        scale="3 3 .5"
+        position="0 10 -25" 
+        geometry="primitive: torus;" 
+        material="color: #facc00"
+        animation="property: rotation;
+      to: 180 720 360;
+      dur: 8000;
+      loop: true;
+      easing: linear;"
+        >
+    </a-entity>
+    <a-entity 
+        scale="3 3 .5"
+        position="0 10 -25" 
+        geometry="primitive: torus;" 
+        material="color: #facc00"
+        animation="property: rotation;
+      to: -180 720 -360;
+      dur: 8000;
+      loop: true;
+      easing: linear;"
+        >
+    </a-entity>
+    <a-entity 
+        scale="3 3 .5"
+        position="0 10 -25" 
+        geometry="primitive: torus;" 
+        material="color: #facc00"
+        animation="property: rotation;
+      to: 360 -720 180;
+      dur: 8000;
+      loop: true;
+      easing: linear;"
+        >
+    </a-entity>
+<!-------------------------------------------------------------------- -->
+  
+</a-scene> 
